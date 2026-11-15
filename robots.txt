@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://camo-track.app/sitemap.xml
