@@ -75,7 +75,7 @@ tracking), your IP address and the rough location it gives, your device
 model, language and connection type, and how you interact with ads. I
 don’t receive this data.</p>
 <p>If you live in the EU, the EEA, the UK or Switzerland (going by your
-device’s Region setting), the app first asks whether ad partners may use
+device’s Region setting, or on Android also its SIM or network country), the app first asks whether ad partners may use
 this data to personalise ads. “Keep ads general” still shows ads, just
 not personalised ones, and you can change your answer at any time under
 Customise &gt; Personalised ads.</p>
@@ -83,13 +83,22 @@ Customise &gt; Personalised ads.</p>
 Transparency, whether it may track you. If you don’t allow it, your
 advertising identifier isn’t shared. You can change that answer at any
 time in Settings &gt; Privacy &amp; Security &gt; Tracking.</p>
+<p>On Android there’s no such question: your device’s advertising ID is
+shared with the ad partners unless you’ve deleted it or opted out in
+your device’s Settings &gt; Privacy &gt; Ads (or Settings &gt; Google
+&gt; Ads).</p>
 <p>Stash photos are read on your device and are never sent to Unity or
-to me.</p>
+to me. On Android the text in them is read on your device by Google’s ML
+Kit, which comes through Google Play services; the photos aren’t uploaded.</p>
 <p>Premium (a yearly subscription or a one-off purchase) removes the
 ads, and once you have it the app no longer starts the ad services.
-Purchases are handled by Apple; I never see your payment details.
-Premium’s iCloud sync keeps your progress in your own iCloud account,
-which I can’t see.</p>
+Purchases are handled by Apple on iPhone and iPad and by Google Play on
+Android; I never see your payment details. Premium’s iCloud sync keeps
+your progress in your own iCloud account, which I can’t see.</p>
+<p>On Android, your progress and settings are included in Android’s own
+backup to your Google account, so they come back when you set up a new
+phone. That backup is Google’s, and I can’t see it; you can turn it off
+in your device’s backup settings.</p>
 <h2 id="log-data">Log Data</h2>
 <p>I want to inform you that the app doesn’t collect crash reports or
 usage statistics for me. If you send a data report from the app, it is
@@ -99,7 +108,18 @@ data. The app downloads weapon and camo updates and pictures from
 jsDelivr, GitHub and this website, which see your IP address as any
 website does.</p>
 <h2 id="notifications">Notifications</h2>
-<p>If you allow notifications, the app tells this website the push token Apple gives it for your device, along with the app’s language and version, so that announcements of new seasons, events and camos can reach you as soon as they’re out. Nothing else about you or your progress is sent. The token is used only to send those announcements, never for advertising or tracking, and it is deleted as soon as Apple reports it no longer works (for example after the app is deleted). If you turn notifications off, no more announcements are sent; to have the token removed straight away, email the address below.</p>
+<p>If you allow notifications, the app on iPhone and iPad tells this website the push token Apple gives it for your device, along with the app’s language and version, so that announcements of new seasons, events and camos can reach you as soon as they’re out. Nothing else about you or your progress is sent. The token is used only to send those announcements, never for advertising or tracking, and it is deleted as soon as Apple reports it no longer works (for example after the app is deleted). If you turn notifications off, no more announcements are sent; to have the token removed straight away, email the address below.</p>
+<p>On Android, the app checks for new content itself every few hours and
+shows the notification from your device; no token or other information
+is sent for it.</p>
+<h2 id="stream-overlay">Stream Overlay</h2>
+<p>The stream overlay is off until you switch it on. While it’s on, the
+app sends this website the camo figures it shows (the game, mode and
+weapon you picked and their progress) so the overlay page can display
+them, along with the channel name if you type one, which only labels how
+often the overlay’s QR code is scanned. The overlay’s link is a random id
+that isn’t tied to you. Switching the overlay off deletes the figures
+from the website.</p>
 <h2 id="cookies">Cookies</h2>
 <p>Cookies are files with a small amount of data that are commonly used
 as anonymous unique identifiers. These are sent to your browser from the
@@ -150,7 +170,7 @@ Policy</h2>
 <p>I may update our Privacy Policy from time to time. Thus, you are
 advised to review this page periodically for any changes. I will notify
 you of any changes by posting the new Privacy Policy on this page.</p>
-<p>This policy is effective as of 2026-11-16</p>
+<p>This policy is effective as of 2026-11-17</p>
 <h2 id="contact-us">Contact Us</h2>
 <p>If you have any questions or suggestions about my Privacy Policy, do
 not hesitate to contact me at <a href="mailto:support@camo-track.app"
